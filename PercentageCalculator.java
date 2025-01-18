@@ -15,6 +15,8 @@ public class PercentageCalculator {
         geography = sc.nextInt();
         percentage = (maths + english + geography + history + science)/5;//Calculating percentage
         System.out.println(percentage);
+        sc.close();
+     
     }
 
     
